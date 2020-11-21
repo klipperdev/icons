@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "name": "KlipperIcons",
+    "lastOpened": 1418773394855,
+    "created": 1605957809437
+  },
+  "iconSets": [
+    {
+      "selection": [
+        {
+          "order": 11,
+          "id": 0,
+          "name": "badge-klipper"
+        }
+      ],
+      "id": 2,
+      "metadata": {
+        "name": "Brands",
+        "importSize": {
+          "width": 1024,
+          "height": 1024
+        }
+      },
+      "height": 1024,
+      "prevSize": 64,
+      "icons": [
+        {
+          "id": 0,
+          "paths": [
+            "M512 85c-235.9 0-427 191.1-427 427s191.1 427 427 427 427-191.1 427-427-191.2-427-427-427zM503.7 802c-160.2 0-290-129.8-290-290s129.8-290 290-290c64.9 0 124.8 21.3 173.1 57.3l-62 83c-31-23.1-69.5-36.7-111.1-36.7-103 0-186.4 83.5-186.4 186.4 0 103 83.5 186.4 186.4 186.4 74.2 0 138.3-43.4 168.3-106.1l93.5 44.6c-46.6 97.6-146.3 165.1-261.8 165.1zM521.4 527.2l19.1 19.2c18.3 18.4 42.6 28.6 68.5 28.6 3.6 0 7.2-0.2 10.7-0.6l-29.8 30c-18.3 18.4-42.6 28.6-68.5 28.6s-50.2-10.2-68.5-28.6l-82.1-82.7c-20-20.2-20-52.9 0-73.1s52.5-20.2 72.5 0l78.1 78.6zM795.3 397.3l-159.1 160.4c-7 1.6-14.2 2.5-21.5 2.5-25.9 0-50.2-10.2-68.5-28.6l-14.6-14.7 191.1-192.6c20-20.2 52.5-20.2 72.5 0 20.1 20.1 20.1 52.9 0.1 73z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "badge-klipper"
+          ]
+        }
+      ],
+      "colorThemes": [],
+      "colorThemeIdx": 0,
+      "invisible": false
+    }
+  ],
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  },
+  "uid": -1,
+  "time": 1605966607477
+}
