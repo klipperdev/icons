@@ -1,0 +1,37 @@
+{
+    "name": "@klipper/icons",
+    "version": "2.0.0",
+    "license": "MIT",
+    "private": true,
+    "author": "François Pluchino <francois.pluchino@klipper.dev>",
+    "contributors": [],
+    "description": "The Klipper icons",
+    "keywords": [
+        "icons",
+        "fonts",
+        "klipper",
+        "bow",
+        "platform"
+    ],
+    "homepage": "https://github.com/klipperdev/icons",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/klipperdev/icons.git"
+    },
+    "bugs": {
+        "url": "https://github.com/klipperdev/icons/issues"
+    },
+    "engines": {},
+    "main": "KlipperIcons.json",
+    "dependencies": {},
+    "devDependencies": {
+        "sass": "^1.29.0"
+    },
+    "scripts": {
+        "build-fonts": "sass scss/fonts.scss dist/fonts.css",
+        "build-icons": "sass scss/icons.scss dist/icons.css",
+        "build-default": "yarn run build-fonts && yarn run build-icons",
+        "build-app": "sass examples/app.scss dist/app.css",
+        "build": "yarn run build-app"
+    }
+}
