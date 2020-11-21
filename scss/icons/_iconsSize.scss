@@ -1,0 +1,26 @@
+//
+// Klipper Icons
+// --------------------------------------------------
+
+// Icons
+// -------------------------
+
+@import '../variables';
+
+.ki {
+    &.x-small {
+        font-size: $klipper-icons-size-x-small;
+    }
+
+    &.small {
+        font-size: $klipper-icons-size-small;
+    }
+
+    &.large {
+        font-size: $klipper-icons-size-large;
+    }
+
+    &.x-large {
+        font-size: $klipper-icons-size-x-large;
+    }
+}

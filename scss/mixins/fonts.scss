@@ -1,0 +1,38 @@
+//
+// Fonts
+// --------------------------------------------------
+
+@import '../utils/utils';
+
+@mixin css-font($name, $type, $localType, $weight, $style, $path, $filename, $woff2: true) {
+    $urlName: str-replace($name, ' ', '%20');
+
+    @if $woff2 {
+        @font-face {
+            font-family: '#{$name}';
+            src: url('#{$path}#{$filename}.eot');
+            src: local('#{$name} #{$type}'),
+            local('#{$name}-#{$localType}'),
+            url('#{$path}#{$filename}.eot?#iefix') format('embedded-opentype'),
+            url('#{$path}#{$filename}.woff2') format('woff2'),
+            url('#{$path}#{$filename}.woff') format('woff'),
+            url('#{$path}#{$filename}.ttf') format('truetype'),
+            url('#{$path}#{$filename}.svg##{$urlName}') format('svg');
+            font-weight: $weight;
+            font-style: $style;
+        }
+    } @else {
+        @font-face {
+            font-family: '#{$name}';
+            src: url('#{$path}#{$filename}.eot');
+            src: local('#{$name} #{$type}'),
+            local('#{$name}-#{$localType}'),
+            url('#{$path}#{$filename}.eot?#iefix') format('embedded-opentype'),
+            url('#{$path}#{$filename}.woff') format('woff'),
+            url('#{$path}#{$filename}.ttf') format('truetype'),
+            url('#{$path}#{$filename}.svg##{$urlName}') format('svg');
+            font-weight: $weight;
+            font-style: $style;
+        }
+    }
+}

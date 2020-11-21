@@ -1,0 +1,23 @@
+//
+// Variables
+// --------------------------------------------------
+
+
+// Fonts
+// -------------------------
+
+$klipper-icons-font-path: '../fonts/' !default;
+$klipper-icons-font-name: 'KlipperIcons' !default;
+
+// Wrapper
+// -------------------------
+$klipper-icons-transition: .3s cubic-bezier(.25, .8, .5, 1), visibility 0s !default;
+
+// Sizes
+// -------------------------
+
+$klipper-icons-size-x-small: 12px !default;
+$klipper-icons-size-small: 16px !default;
+$klipper-icons-size-medium: 24px !default;
+$klipper-icons-size-large: 36px !default;
+$klipper-icons-size-x-large: 40px !default;

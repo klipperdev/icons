@@ -1,0 +1,16 @@
+//
+// Klipper Icons
+// --------------------------------------------------
+
+// Icons
+// -------------------------
+
+@import '../mixins/icons';
+@import '../variables';
+
+.ki {
+    @include klipper-icons-fonts();
+    @include klipper-icons-wrapper($klipper-icons-size-medium, $klipper-icons-transition);
+}
+
+@import 'iconsSize';

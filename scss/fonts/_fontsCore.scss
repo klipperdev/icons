@@ -1,0 +1,8 @@
+//
+// Fonts
+// --------------------------------------------------
+
+@import '../mixins/fonts';
+@import '../variables';
+
+@include css-font('Klipper Icons', 'Klipper Icons', 'KlipperIcons', normal, normal, $klipper-icons-font-path, $klipper-icons-font-name, false);

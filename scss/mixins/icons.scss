@@ -1,0 +1,54 @@
+//
+// klipper Icons
+// --------------------------------------------------
+
+@import '../utils/utils';
+@import '../variables';
+
+@mixin klipper-icons-fonts($width: 1em, $height: 1em) {
+    font-family: 'Klipper Icons', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    speak: none;
+    width: $width;
+    height: $height;
+    letter-spacing: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    overflow: hidden;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+@mixin klipper-icons-wrapper($size: $klipper-icons-size-medium, $transition: $klipper-icons-transition, $lineHeight: 1) {
+    align-items: center;
+    display: inline-flex;
+    font-feature-settings: 'liga';
+    font-size: $size;
+    justify-content: center;
+    letter-spacing: normal;
+    line-height: $lineHeight;
+    position: relative;
+    text-indent: 0;
+    transition: $transition;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@mixin k-icon($name, $code) {
+    $nameFormatted: str-replace($name, '_', '-');
+
+    .ki-#{$nameFormatted} {
+        &:before {
+            content: unquote('\"') + unquote(str-insert($code,'\\', 1)) + unquote('\"');;
+        }
+    }
+}

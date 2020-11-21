@@ -1,0 +1,11 @@
+//
+// Klipper Icons
+// --------------------------------------------------
+
+// Brands
+// -------------------------
+
+@import 'mixins/icons';
+
+@include k-icon('klipper-badge', 'e900');
+@include k-icon('klipper-badge-alt', 'e901');
