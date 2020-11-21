@@ -1,0 +1,9 @@
+$klipper-icons-transition: 2s cubic-bezier(.25, .8, .5, 1), visibility 0s !default;
+$klipper-icons-size-x-small: 24px !default;
+$klipper-icons-size-small: 32px !default;
+$klipper-icons-size-medium: 48px !default;
+$klipper-icons-size-large: 72px !default;
+$klipper-icons-size-x-large: 80px !default;
+
+@import '../scss/fonts';
+@import '../scss/icons';
